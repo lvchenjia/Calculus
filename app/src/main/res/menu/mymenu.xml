@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/limit"
+        android:orderInCategory="102"
+        android:title="趋0极限" />
+    <item
+        android:id="@+id/derivate"
+        android:orderInCategory="102"
+        android:title="求导(偏)" />
+    <item
+        android:id="@+id/integrate"
+        android:orderInCategory="102"
+        android:title="不定积分" />
+    <item
+        android:id="@+id/simplify"
+        android:orderInCategory="102"
+        android:title="化简" />
+    <item
+        android:id="@+id/expand"
+        android:orderInCategory="102"
+        android:title="展开" />
+    <item
+        android:id="@+id/evalf"
+        android:orderInCategory="102"
+        android:title="数值解" />
+    <item
+        android:id="@+id/solve"
+        android:orderInCategory="102"
+        android:title="解方程" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="102"
+        android:title="关于" />
+
+    <item
+        android:id="@+id/kuohao"
+        android:orderInCategory="102"
+        app:showAsAction="always|collapseActionView"
+        android:title="括号" />
+    <item
+        android:id="@+id/recent"
+        android:orderInCategory="102"
+        app:showAsAction="always|collapseActionView"
+        android:title="最近结果" />
+
+    <item
+        android:id="@+id/clean"
+        android:orderInCategory="102"
+        app:showAsAction="always|collapseActionView"
+        android:title="清空" />
+
+</menu>
